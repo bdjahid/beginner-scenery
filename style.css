@@ -1,0 +1,101 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 223, 219);
+}
+/* top flowers styles */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 90%;
+    padding-top: 20px;
+   margin-top: 21px;
+}
+.section-title{
+    color: rgb(45, 45, 134);
+    margin-left: 30px;
+}
+.top-flowers{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.flowers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.flower img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+.flower{
+    display: flex;
+    align-items: center;
+}
+.name{
+    padding-left: 20px;
+    color: rgb(40, 40, 46);
+}
+hr{
+    cursor: pointer;
+   border: solid 1px rgb(167, 163, 146);
+}
+/* scenery style */
+.top-sceneries{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.scenery{
+    display: flex;
+}
+.img-scenery img{
+    width: 400px;
+    border-radius: 10px;
+}
+.scenery-title{
+      padding-left: 30px;
+      color: rgb(108, 108, 141);
+      font-size: 20px;
+}
+.sceneries{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+}
+.scenery-title > p >a{
+    text-decoration: none;
+}
+.love{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.sector{
+    margin-left: 30px;
+}
+.love{
+    margin-left: 30px;
+}
+.img-love img{
+    border-radius: 10px;
+    box-shadow: 2px 4px black;
+}
+.icon{
+    color: rgb(223, 154, 52);
+}
+.icon-2{
+    left: 10px;
+    padding-left: 20px;
+}
+.icon-3{
+    padding-left: 40px;
+    cursor: pointer;
+}
+    
